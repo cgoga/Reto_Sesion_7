@@ -7,8 +7,7 @@ library(ggplot2)
 #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
 # 
 gitcreds_set()
-#
-gitcreds_get()
+#gitcreds_get()
 
 conn <- dbConnect(
   drv = RMySQL::MySQL(),
