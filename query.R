@@ -5,9 +5,9 @@ library(DBI)
 library(ggplot2)
 
 #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
-# 
-gitcreds_set()
-#gitcreds_get()
+# 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
+#
+gitcreds_get()
 
 conn <- dbConnect(
   drv = RMySQL::MySQL(),
